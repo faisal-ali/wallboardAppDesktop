@@ -1,0 +1,223 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        id: time
+        text: '[b]00[/b]:00:00'
+        markup: True
+        font_name: 'Roboto'
+        font_size: 50
+
+    BoxLayout:
+        height: 450
+        orientation: 'vertical'
+        padding: 20
+        spacing: 20
+        size_hint: (1, None)
+
+        canvas:
+            Color:
+                rgb: (1, 1, 0.9)
+            Rectangle:
+                size: (2000, 450)
+                pos: self.pos
+
+        BoxLayout:
+            height: 100
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            canvas:
+                Color:
+                    rgb: (1, 0.8, 0.4)
+                Rectangle:
+                    size: (2000, 80)
+                    pos: self.pos
+
+            Label:
+                id: heading_s
+                text: '[color=#000000]SALAH[/color]'
+                font_name: 'Roboto'
+                font_size: 40
+                bold: True
+                markup: True
+
+            Label:
+                id: heading_a
+                text: '[color=#000000]AZAN[/color]'
+                font_name: 'Roboto'
+                font_size: 40
+                bold: True
+                markup: True
+
+            Label:
+                id: heading_j
+                text: '[color=#000000]JAMAH[/color]'
+                font_name: 'Roboto'
+                font_size: 40
+                bold: True
+                markup: True
+
+        BoxLayout:
+            height: 50
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            Label:
+                id: fajar_s
+                text: '[color=#000000]Fajar[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: fajar_a
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: fajar_j
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+        BoxLayout:
+            height: 50
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            Label:
+                id: zuhar_s
+                text: '[color=#000000]Zuhar[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: zuhar_a
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: zuhar_j
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+        BoxLayout:
+            height: 50
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            Label:
+                id: asar_s
+                text: '[color=#000000]Asar[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: asar_a
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: asar_j
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+        BoxLayout:
+            height: 50
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            Label:
+                id: maghrib_s
+                text: '[color=#000000]Maghrib[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: maghrib_a
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: maghrib_j
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+        BoxLayout:
+            height: 50
+            orientation: 'horizontal'
+            padding: 20
+            spacing: 20
+            size_hint: (1, None)
+
+            Label:
+                id: isha_s
+                text: '[color=#000000]Isha[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: isha_a
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+            Label:
+                id: isha_j
+                text: '[color=#000000][b]00[/b]:00:00[/color]'
+                font_name: 'Roboto'
+                font_size: 25
+                bold: True
+                markup: True
+
+    Label:
+        id: weather
+        text: ''
+        font_name: 'Roboto'
+        fondt_size: 60
+        markup: True
